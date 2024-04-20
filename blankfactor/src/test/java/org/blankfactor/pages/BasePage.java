@@ -5,6 +5,9 @@ import static com.codeborne.selenide.Selenide.$;
 import com.codeborne.selenide.Selectors;
 import com.codeborne.selenide.SelenideElement;
 
+/**
+ * Base page with representation of all page elements into Selenide Elements
+ */
 public class BasePage {
 
   public SelenideElement letsTalkButton() { return $(".contact-btn-wrap");}

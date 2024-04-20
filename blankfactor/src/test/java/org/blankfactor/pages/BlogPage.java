@@ -6,6 +6,9 @@ import static com.codeborne.selenide.Selenide.$$;
 import com.codeborne.selenide.ElementsCollection;
 import com.codeborne.selenide.SelenideElement;
 
+/**
+ * Blog page with representation of all page elements into Selenide Elements
+ */
 public class BlogPage {
   public ElementsCollection articles() { return postList().$$("article");}
 

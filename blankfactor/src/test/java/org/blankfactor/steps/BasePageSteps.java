@@ -11,6 +11,9 @@ import io.qameta.allure.Step;
 import org.blankfactor.pages.BasePage;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 
+/**
+ * Steps for Base Page that represents methods
+ */
 public class BasePageSteps {
 
   private static final String BASE_URL = "https://blankfactor.com/";

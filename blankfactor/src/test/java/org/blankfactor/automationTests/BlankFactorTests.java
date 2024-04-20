@@ -8,6 +8,9 @@ import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
+/**
+ * Automation tests class representing Selenium (Selenide) architecture
+ */
 public class BlankFactorTests {
 
   private static final BasePageSteps BASE_PAGE_STEPS = new BasePageSteps();

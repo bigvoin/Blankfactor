@@ -12,6 +12,9 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+/**
+ * Steps for Blog Page that represents methods
+ */
 public class BlogPageSteps {
 
   private static final BlogPage BLOG_PAGE = new BlogPage();

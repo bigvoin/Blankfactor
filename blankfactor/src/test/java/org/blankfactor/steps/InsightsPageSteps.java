@@ -6,6 +6,9 @@ import io.qameta.allure.Step;
 import org.blankfactor.pages.InsightsPage;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 
+/**
+ * Steps for Insights Page that represents methods
+ */
 public class InsightsPageSteps {
 
   private static final InsightsPage INSIGHTS_PAGE = new InsightsPage();
